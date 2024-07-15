@@ -36,3 +36,28 @@
   font-weight: 700;
   font-style: normal;
 }
+
+:root {
+  /* COLOR */
+  --clr-primary: 30 10% 34%;
+  --clr-secondary: 14 45% 36%;
+  --clr-tertiary: 24 5% 18%;
+  --clr-accent: 332 51% 32%;
+  --clr-accent-variant: 330 100% 98%;
+  --clr-line: 30 18% 87%;
+  --clr-card-bg: 0 0% 100%;
+  --clr-bg: 30 54% 90%;
+
+  /* FONT FAMILY */
+  --ff-young-serif: "Young Serif", serif;
+  --ff-outfit: "Outfit", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-normal: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+body {
+  background: hsl(var(--clr-dark-charcoal));
+}
