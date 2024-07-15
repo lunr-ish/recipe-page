@@ -123,6 +123,19 @@ ul {
   margin-bottom: 1.25rem;
 }
 
+.recipe__time {
+  margin-block: 2rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+  border-radius: 0.875rem;
+  background: hsl(var(--clr-accent-variant));
+}
+
+.recipe__time-title {
+  font-size: 1.25rem;
+  font-weight: var(--fw-semi-bold);
+  color: hsl(var(--clr-accent));
+}
+
 @media (min-width: 40rem) {
   body {
     padding: 1.5rem;
@@ -145,5 +158,9 @@ ul {
 
   .recipe__title {
     font-size: 2.5rem;
+  }
+
+  .recipe__time {
+    padding: 1.5625rem 1.75rem;
   }
 }
