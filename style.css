@@ -57,7 +57,3 @@
   --fw-semi-bold: 600;
   --fw-bold: 700;
 }
-
-body {
-  background: hsl(var(--clr-dark-charcoal));
-}
