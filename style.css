@@ -90,10 +90,21 @@ h3 {
   overflow-wrap: break-word;
 }
 
+.recipe {
+  max-width: 46rem;
+  width: 100%;
+  background: hsl(var(--clr-card-bg));
+  overflow: hidden;
+}
+
 @media (min-width: 40rem) {
   body {
     padding: 1.5rem;
     align-items: center;
     justify-content: center;
+  }
+
+  .recipe {
+    border-radius: 1.5rem;
   }
 }
