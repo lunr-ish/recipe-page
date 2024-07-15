@@ -90,6 +90,11 @@ h3 {
   overflow-wrap: break-word;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .recipe {
   max-width: 46rem;
   width: 100%;
