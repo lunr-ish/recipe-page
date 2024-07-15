@@ -72,6 +72,10 @@ body {
   width: 100%;
   min-height: 100vh;
   line-height: 1.5;
+  font-family: var(--ff-outfit);
+  background: hsl(var(--clr-bg));
+  color: hsl(var(--clr-primary));
+  display: flex;
 }
 
 img {
@@ -84,4 +88,12 @@ h1,
 h2,
 h3 {
   overflow-wrap: break-word;
+}
+
+@media (min-width: 40rem) {
+  body {
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
 }
