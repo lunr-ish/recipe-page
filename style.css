@@ -97,6 +97,10 @@ h3 {
   overflow: hidden;
 }
 
+.recipe__img-wrapper {
+  overflow: hidden;
+}
+
 @media (min-width: 40rem) {
   body {
     padding: 1.5rem;
@@ -106,5 +110,10 @@ h3 {
 
   .recipe {
     border-radius: 1.5rem;
+  }
+
+  .recipe__img-wrapper {
+    margin: 2.5rem 2.5rem 0;
+    border-radius: 0.75rem;
   }
 }
