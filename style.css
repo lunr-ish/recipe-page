@@ -143,7 +143,7 @@ ul {
 
 .recipe__time {
   margin-block: 2rem;
-  padding: 1.25rem 1.5rem 1.5rem;
+  padding: 1.125rem 1.5rem 1.5rem;
   border-radius: 0.875rem;
   background: hsl(var(--clr-accent-variant));
 }
@@ -152,6 +152,22 @@ ul {
   font-size: 1.25rem;
   font-weight: var(--fw-semi-bold);
   color: hsl(var(--clr-accent));
+}
+
+.recipe__time-item {
+  position: relative;
+  margin-left: 2.25rem;
+}
+
+.recipe__time-item::before {
+  content: "";
+  position: absolute;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: hsl(var(--clr-accent));
+  border-radius: 100%;
+  top: 50%;
+  transform: translate(-1.75rem, -50%);
 }
 
 @media (min-width: 40rem) {
