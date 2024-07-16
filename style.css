@@ -223,6 +223,10 @@ hr {
   padding-left: 1.125rem;
 }
 
+.recipe__instructions-item:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 li.recipe__instructions-item::marker {
   font-weight: var(--fw-bold);
   color: hsl(var(--clr-secondary));
