@@ -273,7 +273,7 @@ tr > * {
 
 @media (min-width: 40rem) {
   body {
-    padding: 1.5rem;
+    padding: 7.625rem 1.5rem;
     align-items: center;
     justify-content: center;
   }
