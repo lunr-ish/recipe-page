@@ -164,7 +164,7 @@ hr {
 
 .recipe__time-item,
 .recipe__ingredients-item {
-  --_clr-bullet: var(--clr-bullet, var(--clr-primary));
+  --_clr-bullet: var(--clr-bullet, var(--clr-secondary));
 
   position: relative;
   margin-left: 2.25rem;
@@ -196,12 +196,31 @@ hr {
   color: hsl(var(--clr-secondary));
 }
 
-.recipe__ingredients-list {
+.recipe__ingredients-list,
+.recipe__instructions-list {
   margin-block: 1.25rem 2rem;
 }
 
 .recipe__ingredients-item:not(:last-child) {
   margin-bottom: 0.5rem;
+}
+
+.recipe__instructions {
+  margin-top: 2rem;
+}
+
+.recipe__instructions-list {
+  margin-left: 1.59rem;
+  padding: 0;
+}
+
+.recipe__instructions-item {
+  padding-left: 1.125rem;
+}
+
+li.recipe__instructions-item::marker {
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-secondary));
 }
 
 @media (min-width: 40rem) {
